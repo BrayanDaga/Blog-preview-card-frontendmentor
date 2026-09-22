@@ -1,0 +1,46 @@
+:root {
+  --yellow-900: hsl(47, 88%, 63%);
+  --white-100: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+
+body {
+  background-color: var(--yellow-900);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* card */
+.card {
+  max-width: 300px;
+  background-color: var(--white-100);
+  padding: 16px;
+  border-radius: 16px;
+  border: 1.5px solid black;
+  box-shadow: 4px 4px 0px 0px black;
+}
+
+.card-image {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+/* Desktop: 1440px */
+@media (min-width: 1440px) {
+  /* Estilos para escritorio desde 1440px */
+}
