@@ -37,29 +37,28 @@ main {
 .card {
   background-color: var(--white-100);
   max-width: 327px;
+  height: 501px;
   border-radius: 16px;
   border: 1px solid var(--gray-950);
   box-shadow: 6px 6px 0px 0px var(--gray-950);
-  padding: 16px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
 }
 
 .card-image {
   border-radius: 16px;
   overflow: hidden;
-}
-
-.card-image img {
-  width: 100%;
+  height: 200px;
+  background-image: url('./assets/images/illustration-article.svg');
 }
 
 .card-body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 4px;
+  gap: 12px;
   margin-top: 4px;
 }
 
@@ -141,6 +140,11 @@ footer a {
 
 
 @media (min-width: 768px) {
+  .card {
+    max-width: 384px;
+    height: 522px;
+  }
+
   footer {
     font-size: 1rem;
   }
